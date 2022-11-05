@@ -11,6 +11,8 @@ function createTable(){
    alert("Количество столбцов должно быть больше нуля");
 
 }
+
+
   else{
       let table = document.createElement('table');
       table.setAttribute('id', 'new__table');
